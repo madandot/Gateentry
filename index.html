@@ -13,10 +13,10 @@
 
 <body>
     <!-- SIDE BAR ITEMS  -->
-    <section>
-        <div class="bg-slate-300 w-80 h-screen">
+    <section class=" flex">
+        <div class="bg-white w-96 h-screen shrink-0">
             <ul class="">
-                <li class="text-3xl font-bold pt-2 bg-slate-200 shadow-lg"><a href="#"></a><i
+                <li class="text-3xl font-bold pt-2 bg-slate-50 shadow-sm"><a href="#"></a><i
                         class=" p-6 pl-16  fa fa"></i>OGES</li>
                 <li class=" m-10 text-blue-900 text-2xl "><a href=" #"><i class=" p-3  fa fa-table"></i>Dashboard</a>
                 </li>
@@ -34,41 +34,59 @@
                         Dates</a></li>
             </ul>
         </div>
-    </section>
 
-
-
-
-
-
-    <section>
-        <div class="bg-white     w-70 h-70 p-10">
-
-            <div>
-                <i class=" p-3 fa fa-user"></i><span>0</span>
-                <p>Today's Visitor</p>
+        <div class=" grow">
+            <!-- NAV BAR AND SEARCH BAR AND LOGIN ICON -->
+            <div class="flex w-full justify-between p-3   bg-slate-50 text-1xl shadow-sm font-bold cursor-pointer   ">
+                <div>
+                    <input class="p-2 ml-40 pl-1 w-96 outline-none" type="search"
+                        placeholder="search Visitor by name and mobile number...">
+                    <i class=" h-10 w-14 p-4 absolute items-center text-white bg-blue-600   fa fa-search"></i>
+                </div>
+                <div class="flex ">
+                    <p id="sign" class="capitalize pr-5 bg-sky-400 p-2 mr-2 rounded-sm ">sign up</p>
+                    <i id="icon" class=" pr-10 pt-2 text-2xl fa fa-user "></i>
+                </div>
             </div>
-            <div>
-                <i class=" p-3 fa fa-user"></i><span>0</span>
-                <p>Today's Visitor</p>
-            </div>
-            <div>
-                <i class=" p-3 fa fa-user"></i><span>0</span>
-                <p>Today's Visitor</p>
-            </div>
-            <div>
-                <i class=" p-3 fa fa-u"></i><span>0</span>
-                <p>Today's Visitor</p>
-            </div>
-            <div>
-                <i class=" p-3 fa fa-database"></i><span>0</span>
-                <p>Today's Visitor</p>
-            </div>
-            <div>
-                <i class=" p-3 fa fa-database"></i><span>0</span>
-                <p>Today's Visitor</p>
+
+            <div class="bg-slate-300 min-h-screen w-full ">
+
+                <div class=" grid grid-cols-4 gap-4  justify-between font-sans font-bold  ">
+                    <div
+                        class=" m-10 bg-fuchsia-500 w-52 pl-4 rounded-md bg-gradient-to-t from-indigo-400 pt-5 pr-10 pb-2 ">
+                        <i class=" p-3 fa fa-user"></i><span>0</span>
+                        <p class="block">Today's Visitor</p>
+                    </div>
+                    <div
+                        class=" m-10 bg-green-500 w-52 pl-4 rounded-md bg-gradient-to-t from-gray-600 pt-5 pr-10 pb-2 ">
+                        <i class=" p-3 fa fa-user"></i><span>0</span>
+                        <p>Today's Visitor</p>
+                    </div>
+                    <div
+                        class=" m-10 bg-orange-600 w-52 pl-4 rounded-md bg-gradient-to-t from-pink-400 pt-5 pr-10 pb-2">
+                        <i class=" p-3 fa fa-user"></i><span>0</span>
+                        <p>Today's Visitor</p>
+                    </div>
+                    <div
+                        class=" m-10 bg-yellow-300 w-52 pl-4 rounded-md bg-gradient-to-t from-green-600 pt-5 pr-10 pb-2">
+                        <i class=" p-3 fa fa-user"></i><span>0</span>
+                        <p>Today's Visitor</p>
+                    </div>
+                    <div class=" m-10 bg-red-500 w-52 pl-4 rounded-md bg-gradient-to-t from-orange-200 pt-5 pr-10 pb-2">
+                        <i class=" p-3 fa fa-database"></i><span>0</span>
+                        <p>Today's Visitor</p>
+                    </div>
+                    <div
+                        class=" m-10 bg-blue-600 w-52 pl-4 rounded-md bg-gradient-to-t from-yellow-500 pt-5 pr-10 pb-2">
+                        <i class=" p-3 fa fa-database"></i><span>0</span>
+                        <p>Today's Visitor</p>
+                    </div>
+                </div>
             </div>
         </div>
+
+
+
     </section>
 
 
